@@ -20,11 +20,23 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-lg btn-block btn-dark" id="infoButton">Get Info</button>
-            </div>
+        <div class="container">
+                <!-- <button type="button" class="btn btn-primary btn-lg btn-block btn-dark" id="infoButton">Get Info</button> -->
+                <div class="btn-group row" role="group" aria-label="Basic example">
+                    
+                        <button type="button" class="btn btn-secondary btn-block" id="peopleButton">Get people</button>
+                    
+                        <button type="button" class="btn btn-secondary btn-block" id="planetButton">Get Planets</button>
+                    
+                        <button type="button" class="btn btn-secondary btn-block" id="starshipButton">Get Starships</button>
+
+                        <button type="button" class="btn btn-secondary btn-block" id="clearButton">clear</button>
+                    
+                </div>
         </div>
+
+
+
 
         <div class="row">
             <div class="col">
@@ -32,15 +44,15 @@
                     <thead>
                         <tr>
                             <th scope="col">name</th>
-                            <th scope="col">height</th>
-                            <th scope="col">Birth Year</th>
+                            <th scope="col" id="thA">height</th>
+                            <th scope="col" id="thB">Birth Year</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody">
                         <tr>
-                            <td>Luke Skywalker</td>
+                            <!-- <td>Luke Skywalker</td>
                             <td>177</td>
-                            <td>19bby</td>
+                            <td>19bby</td> -->
                         </tr>
                     </tbody>
                 </table>
